@@ -1,3 +1,4 @@
+import datetime
 import sys
 import platform
 import os
@@ -15,12 +16,20 @@ from pathlib import Path
 import numpy as np
 from collections import deque
 import sqlite3
+import logging
+from dotenv import load_dotenv
+import json
+import websocket
+import psutil
+import time
 
+logging.basicConfig(level=logging.ERROR, filename="py_log.log", filemode="w")
 
 # CONSTANTS, time intervals when the chart should be updated
 INTERVAL_1SECOND = 1000
 INTERVAL_10SECOND = 10000
 INTERVAL_1MINUTE = 60000
+TABLE_NAME = "CPU usage"
 
 
 # GLOBALS
@@ -60,6 +69,36 @@ class MainWindow(QMainWindow):
         self.current_timer_systemStat.start(1000)
         self.show_cpu_graph()
         self.setting_radioButton()
+        load_dotenv()
+        self.connnect_to_DB()
+        self.connect_to_server()
+
+    def connect_to_server(self):
+        '''Подключаемся к удалённому сервису'''
+        try:
+            self.ws = websocket.WebSocket()
+            self.ws.connect('ws://localhost:8000/ws/polData/')
+            self.is_connection = True
+        except ConnectionRefusedError as error:
+            logging.error(f"Ошибка при подключении к sqlite {error}")
+            print(f"Ошибка при подключении к sqlite {error}")
+            self.is_connection = False
+
+
+    def connnect_to_DB(self):
+        '''Иницирует подключение к базе данных'''
+        try:
+            self.sqlite_connection = sqlite3.connect(os.getenv('DB_NAME'))
+            self.cursor = self.sqlite_connection.cursor()
+            logging.info("База данных создана и успешно подключена к SQLite")
+
+            sqlite_select_query = "select sqlite_version();"
+            self.cursor.execute(sqlite_select_query)
+            record = self.cursor.fetchall()
+            logging.info(f"Версия базы данных SQLite: {record}")
+
+        except sqlite3.Error as error:
+            logging.error(f"Ошибка при подключении к sqlite {error}")
 
     def setting_radioButton(self):
         '''Настраиваем переключатели'''
@@ -95,12 +134,29 @@ class MainWindow(QMainWindow):
             self.current_timer_graph.setInterval(INTERVAL_1MINUTE)
             self.timestep = 60
 
+    def save_to_DB(self):
+        sqlite_insert_query = """INSERT INTO "CPU usage"
+                                  (date, usage)  VALUES  (?, ?)"""
+        # get the current datetime and store it in a variable
+        currentDateTime = datetime.datetime.now()
+        self.cursor.execute(sqlite_insert_query, (currentDateTime, self.cpu_percent))
+        logging.info("Data Inserted Successfully !")
+        self.sqlite_connection.commit()
+
     def update_cpu(self):
         self.timestamp += self.timestep
         self.deque_timestamp.append(self.timestamp)
         self.deque_cpu.append(self.cpu_percent)
         timeaxis_list = list(self.deque_timestamp)
         cpu_list = list(self.deque_cpu)
+        self.save_to_DB()
+        if self.is_connection:
+            try:
+                self.ws.send(json.dumps({'value': self.cpu_percent}))
+            except:
+                self.is_connection = False
+
+
 
         if self.timestamp > self.graph_lim:
             self.graphwidget1.setRange(xRange=[self.timestamp-self.graph_lim+1, self.timestamp], yRange=[

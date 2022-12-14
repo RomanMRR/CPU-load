@@ -192,7 +192,7 @@ color: rgb(155, 155, 255);
 font-size: 12px;</string>
          </property>
          <property name="text">
-          <string>&lt;span&gt;&amp;#169;&lt;/span&gt; Earth Inversion</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;For BO-ENERGO&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
