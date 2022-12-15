@@ -1,0 +1,9 @@
+ERROR:root:Ошибка при подключении к сервису [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+INFO:root:База данных создана и успешно подключена к SQLite
+INFO:root:Версия базы данных SQLite: [('3.35.5',)]
+INFO:root:Data Inserted Successfully !
+INFO:root:Data Inserted Successfully !
+INFO:root:Data Inserted Successfully !
+INFO:root:Data Inserted Successfully !
+INFO:root:Data Inserted Successfully !
+INFO:root:Data Inserted Successfully !

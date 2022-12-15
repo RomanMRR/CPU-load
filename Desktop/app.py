@@ -65,6 +65,7 @@ class MainWindow(QMainWindow):
         self.connect_to_server()
         self.connnect_to_DB()
 
+
     def init_service(self):
         '''Назначает адрес и порт сервиса для отправки данных'''
         self.host = os.getenv('HOST', 'localhost')
