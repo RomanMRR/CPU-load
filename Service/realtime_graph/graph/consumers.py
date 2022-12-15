@@ -1,8 +1,7 @@
 import json
 
 from channels.generic.websocket import AsyncWebsocketConsumer
-from time import sleep
-import psutil
+
 
 
 class GraphConsumer(AsyncWebsocketConsumer):
@@ -24,16 +23,20 @@ class GraphConsumer(AsyncWebsocketConsumer):
     async def receive(self, text_data):
         datapoint = json.loads(text_data)
         val = datapoint['value']
+        time = datapoint['time']
 
         await self.channel_layer.group_send(
             self.groupname,
             {
                 'type': 'deprocessing',
-                'value': val
+                'value': val,
+                'time': time,
             }
         )
         print('>>>>', text_data)
 
     async def deprocessing(self, event):
         valOther = event['value']
-        await self.send(text_data=json.dumps({'value': valOther}))
+        timeOther = event['time']
+        await self.send(text_data=json.dumps({'value': valOther,
+                                              'time': timeOther}))

@@ -1,19 +1,12 @@
 import datetime
 import sys
-import platform
 import os
-from PyQt5 import QtCore, QtGui, QtWidgets
-from PyQt5.QtCore import (QCoreApplication, QPropertyAnimation, QDate, QDateTime,
-                          QMetaObject, QObject, QPoint, QRect, QSize, QTime, QUrl, Qt, QEvent)
-from PyQt5.QtGui import (QBrush, QColor, QConicalGradient, QCursor, QFont, QFontDatabase,
-                         QIcon, QKeySequence, QLinearGradient, QPalette, QPainter, QPixmap, QRadialGradient)
+from PyQt5 import QtCore, QtWidgets
+from PyQt5.QtGui import QColor
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
-import psutil
 from pyqtgraph import PlotWidget
 import pyqtgraph as pg
-from pathlib import Path
-import numpy as np
 from collections import deque
 import sqlite3
 import logging
@@ -21,9 +14,8 @@ from dotenv import load_dotenv
 import json
 import websocket
 import psutil
-import time
 
-logging.basicConfig(level=logging.ERROR, filename="py_log.log", filemode="w")
+logging.basicConfig(level=logging.INFO, filename="py_log.log", filemode="w")
 
 # CONSTANTS, time intervals when the chart should be updated
 INTERVAL_1SECOND = 1000
@@ -31,12 +23,11 @@ INTERVAL_10SECOND = 10000
 INTERVAL_1MINUTE = 60000
 TABLE_NAME = "CPU usage"
 
-
 # GLOBALS
 counter = 0
 jumper = 10
-QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling, True) #enable highdpi scaling
-QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_UseHighDpiPixmaps, True) #use highdpi icons
+QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling, True)  # enable highdpi scaling
+QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_UseHighDpiPixmaps, True)  # use highdpi icons
 
 
 class MainWindow(QMainWindow):
@@ -52,8 +43,8 @@ class MainWindow(QMainWindow):
         self.ramaxis = []
         self.current_timer_graph = None
         self.graph_lim = 15
-        self.deque_timestamp = deque([], maxlen=self.graph_lim+20)
-        self.deque_cpu = deque([], maxlen=self.graph_lim+20)
+        self.deque_timestamp = deque([], maxlen=self.graph_lim + 20)
+        self.deque_cpu = deque([], maxlen=self.graph_lim + 20)
 
         self.graphwidget1 = PlotWidget(title="CPU percent")
         x1_axis = self.graphwidget1.getAxis('bottom')
@@ -70,20 +61,27 @@ class MainWindow(QMainWindow):
         self.show_cpu_graph()
         self.setting_radioButton()
         load_dotenv()
-        self.connnect_to_DB()
+        self.init_service()
         self.connect_to_server()
+        self.connnect_to_DB()
+
+    def init_service(self):
+        '''Назначает адрес и порт сервиса для отправки данных'''
+        self.host = os.getenv('HOST', 'localhost')
+        self.port = os.getenv('PORT', '8000')
 
     def connect_to_server(self):
         '''Подключаемся к удалённому сервису'''
         try:
             self.ws = websocket.WebSocket()
-            self.ws.connect('ws://localhost:8000/ws/polData/')
+            self.ws.connect(f'ws://{self.host}:{self.port}/ws/polData/')
             self.is_connection = True
         except ConnectionRefusedError as error:
-            logging.error(f"Ошибка при подключении к sqlite {error}")
-            print(f"Ошибка при подключении к sqlite {error}")
+            logging.error(f"Ошибка при подключении к сервису {error}")
             self.is_connection = False
-
+        except websocket._exceptions.WebSocketBadStatusException as error:
+            logging.error(f"Ошибка при подключении к сервису {error}")
+            self.is_connection = False
 
     def connnect_to_DB(self):
         '''Иницирует подключение к базе данных'''
@@ -121,7 +119,6 @@ class MainWindow(QMainWindow):
         self.current_timer_graph.timeout.connect(self.update_cpu)
         self.current_timer_graph.start(1000)
 
-
     def change_plot_interval(self):
         '''Выставляем интервал обновления графика'''
         if self.radioButton_1Second.isChecked():
@@ -135,7 +132,8 @@ class MainWindow(QMainWindow):
             self.timestep = 60
 
     def save_to_DB(self):
-        sqlite_insert_query = """INSERT INTO "CPU usage"
+        '''Сохраняем процент использования CPU в базу данных'''
+        sqlite_insert_query = f"""INSERT INTO "{TABLE_NAME}"
                                   (date, usage)  VALUES  (?, ?)"""
         # get the current datetime and store it in a variable
         currentDateTime = datetime.datetime.now()
@@ -152,28 +150,22 @@ class MainWindow(QMainWindow):
         self.save_to_DB()
         if self.is_connection:
             try:
-                self.ws.send(json.dumps({'value': self.cpu_percent}))
+                self.ws.send(json.dumps({'value': self.cpu_percent,
+                                         'time': self.timestamp}))
             except:
                 self.is_connection = False
 
-
-
         if self.timestamp > self.graph_lim:
-            self.graphwidget1.setRange(xRange=[self.timestamp-self.graph_lim+1, self.timestamp], yRange=[
-                                       min(cpu_list[-self.graph_lim:]), max(cpu_list[-self.graph_lim:])])
+            self.graphwidget1.setRange(xRange=[self.timestamp - self.graph_lim + 1, self.timestamp], yRange=[
+                min(cpu_list[-self.graph_lim:]), max(cpu_list[-self.graph_lim:])])
         self.set_plotdata(name="cpu", data_x=timeaxis_list,
                           data_y=cpu_list)
-
-
 
     def show_cpu_graph(self):
         self.graphwidget1.show()
         self.start_cpu_graph()
 
-
-
     def set_plotdata(self, name, data_x, data_y):
-        # print('set_data')
         if name in self.traces:
             self.traces[name].setData(data_x, data_y)
         else:
@@ -233,8 +225,6 @@ class MainWindow(QMainWindow):
 class SplashScreen(QMainWindow):
     def __init__(self):
         QMainWindow.__init__(self)
-        # self.ui = Ui_SplashScreen()
-        # self.ui.setupUi(self)
         self.ui = uic.loadUi("splash_screen.ui", self)
         # ==> SET INITIAL PROGRESS BAR TO (0) ZERO
         self.progressBarValue(0)
@@ -276,7 +266,7 @@ class SplashScreen(QMainWindow):
         # REPLACE VALUE
         newHtml = htmlText.replace("{VALUE}", str(jumper))
 
-        if(value > jumper):
+        if (value > jumper):
             # APPLY NEW PERCENTAGE TEXT
             self.ui.labelPercentage.setText(newHtml)
             jumper += 10
