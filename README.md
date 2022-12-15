@@ -42,7 +42,7 @@ git clone https://github.com/RomanMRR/CPU-load.git
 ```
 Перейдите в папку проекта
 ```
-cd CPU-load/
+cd CPU-load/Service/realtime_graph
 ```
 Запустите сервис
 ```
