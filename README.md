@@ -35,3 +35,17 @@
 ### Сохранение данных
 Все полученные данные сохраняются в базу данных
 
+## Запуск
+Скопируйте проект
+```
+git clone https://github.com/RomanMRR/CPU-load.git
+```
+Перейдите в папку проекта
+```
+cd CPU-load/
+```
+Запустите сервис
+```
+docker-compose up --build
+```
+Запустите приложение  `CPU-load/Desktop/dist/app.exe`
