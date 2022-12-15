@@ -33,7 +33,6 @@ class GraphConsumer(AsyncWebsocketConsumer):
                 'time': time,
             }
         )
-        print('>>>>', text_data)
 
     async def deprocessing(self, event):
         valOther = event['value']
