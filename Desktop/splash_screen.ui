@@ -128,8 +128,8 @@ color: #FFFFFF</string>
         <widget class="QLabel" name="labelPercentage">
          <property name="font">
           <font>
-           <family>Helvetica Neue</family>
-           <pointsize>68</pointsize>
+           <family>Arial</family>
+           <pointsize>60</pointsize>
           </font>
          </property>
          <property name="styleSheet">

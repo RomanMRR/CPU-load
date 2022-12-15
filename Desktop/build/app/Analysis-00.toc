@@ -405,8 +405,8 @@
   ('multiprocessing',
    'C:\\Users\\profe\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\__init__.py',
    'PYMODULE'),
-  ('_py_abc',
-   'C:\\Users\\profe\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_py_abc.py',
+  ('stringprep',
+   'C:\\Users\\profe\\AppData\\Local\\Programs\\Python\\Python39\\lib\\stringprep.py',
    'PYMODULE'),
   ('getpass',
    'C:\\Users\\profe\\AppData\\Local\\Programs\\Python\\Python39\\lib\\getpass.py',
@@ -429,11 +429,11 @@
   ('http.cookiejar',
    'C:\\Users\\profe\\AppData\\Local\\Programs\\Python\\Python39\\lib\\http\\cookiejar.py',
    'PYMODULE'),
-  ('stringprep',
-   'C:\\Users\\profe\\AppData\\Local\\Programs\\Python\\Python39\\lib\\stringprep.py',
-   'PYMODULE'),
   ('tracemalloc',
    'C:\\Users\\profe\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\profe\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_py_abc.py',
    'PYMODULE'),
   ('psutil',
    'D:\\IT\\CPU load\\venv\\lib\\site-packages\\psutil\\__init__.py',
@@ -2081,91 +2081,91 @@
   ('python39.dll',
    'C:\\Users\\profe\\AppData\\Local\\Programs\\Python\\Python39\\python39.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\bin\\libEGL.dll',
-   'D:\\IT\\CPU load\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\libEGL.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\bin\\opengl32sw.dll',
-   'D:\\IT\\CPU '
-   'load\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\opengl32sw.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
-   'BINARY'),
   ('PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
    'D:\\IT\\CPU '
    'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\bin\\libGLESv2.dll',
-   'D:\\IT\\CPU load\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\libGLESv2.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\plugins\\imageformats\\qico.dll',
    'D:\\IT\\CPU '
    'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qico.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
-   'D:\\IT\\CPU '
-   'load\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
+  ('PyQt5\\Qt5\\bin\\libEGL.dll',
+   'D:\\IT\\CPU load\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\libEGL.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\styles\\qwindowsvistastyle.dll',
+  ('libopenblas.FB5AE2TYXYH2IJRDKGDGQ3XBKLKTF43H.gfortran-win_amd64.dll',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\styles\\qwindowsvistastyle.dll',
+   'load\\venv\\lib\\site-packages\\numpy\\.libs\\libopenblas.FB5AE2TYXYH2IJRDKGDGQ3XBKLKTF43H.gfortran-win_amd64.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+  ('PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
+  ('PyQt5\\Qt5\\bin\\opengl32sw.dll',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
+   'load\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\opengl32sw.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+  ('PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
+  ('PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
    'D:\\IT\\CPU '
    'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
    'BINARY'),
-  ('libopenblas.FB5AE2TYXYH2IJRDKGDGQ3XBKLKTF43H.gfortran-win_amd64.dll',
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\numpy\\.libs\\libopenblas.FB5AE2TYXYH2IJRDKGDGQ3XBKLKTF43H.gfortran-win_amd64.dll',
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\styles\\qwindowsvistastyle.dll',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\styles\\qwindowsvistastyle.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
+   'D:\\IT\\CPU '
+   'load\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\libGLESv2.dll',
+   'D:\\IT\\CPU load\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\libGLESv2.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
    'BINARY'),
   ('_multiprocessing.pyd',
    'C:\\Users\\profe\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_multiprocessing.pyd',
@@ -2292,39 +2292,39 @@
   ('PyQt5\\QtCore.pyd',
    'D:\\IT\\CPU load\\venv\\lib\\site-packages\\PyQt5\\QtCore.pyd',
    'EXTENSION'),
-  ('PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
+  ('PyQt5\\Qt5\\bin\\Qt5Gui.dll',
+   'D:\\IT\\CPU load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Gui.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\bin\\Qt5Core.dll',
    'D:\\IT\\CPU load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll',
    'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\profe\\AppData\\Local\\Programs\\Python\\Python39\\VCRUNTIME140_1.dll',
+   'BINARY'),
   ('PyQt5\\Qt5\\bin\\MSVCP140.dll',
    'D:\\IT\\CPU load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\bin\\MSVCP140.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\bin\\Qt5Quick.dll',
-   'D:\\IT\\CPU load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Quick.dll',
+  ('PyQt5\\Qt5\\bin\\Qt5Svg.dll',
+   'D:\\IT\\CPU load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Svg.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\bin\\Qt5Gui.dll',
-   'D:\\IT\\CPU load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Gui.dll',
+  ('PyQt5\\Qt5\\bin\\Qt5Widgets.dll',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Widgets.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\bin\\Qt5Network.dll',
    'D:\\IT\\CPU '
    'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Network.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\bin\\Qt5Svg.dll',
-   'D:\\IT\\CPU load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Svg.dll',
+  ('PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Quick.dll',
+   'D:\\IT\\CPU load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Quick.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\bin\\VCRUNTIME140_1.dll',
    'D:\\IT\\CPU '
    'load\\venv\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\VCRUNTIME140_1.dll',
-   'BINARY'),
-  ('VCRUNTIME140_1.dll',
-   'C:\\Users\\profe\\AppData\\Local\\Programs\\Python\\Python39\\VCRUNTIME140_1.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\bin\\Qt5Widgets.dll',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Widgets.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\bin\\Qt5DBus.dll',
    'D:\\IT\\CPU load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5DBus.dll',
@@ -2363,460 +2363,460 @@
  [('base_library.zip',
    'D:\\IT\\CPU load\\Desktop\\build\\app\\base_library.zip',
    'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-C5s.csv',
+  ('PyQt5\\Qt5\\translations\\qtbase_fr.qm',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C5s.csv',
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-L5.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L5.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-L1.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L1.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-L15.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L15.csv',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qtbase_he.qm',
    'D:\\IT\\CPU '
    'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_he.qm',
    'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-D1A.csv',
+  ('pyqtgraph\\colors\\maps\\CET-C2.csv',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D1A.csv',
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C2.csv',
    'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-L14.csv',
+  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qtcharts.cpython-39.pyc',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L14.csv',
+   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qtcharts.cpython-39.pyc',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-L10.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L10.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-I3.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-I3.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-L9.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L9.csv',
    'DATA'),
   ('pyqtgraph\\colors\\maps\\CET-L2.csv',
    'D:\\IT\\CPU '
    'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L2.csv',
    'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-D12.csv',
+  ('pyqtgraph\\colors\\maps\\CET-I1.csv',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D12.csv',
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-I1.csv',
    'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-C2s.csv',
+  ('pyqtgraph\\colors\\maps\\CET-R1.csv',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C2s.csv',
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-R1.csv',
    'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-L6.csv',
+  ('pyqtgraph\\colors\\maps\\PAL-relaxed.hex',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L6.csv',
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\PAL-relaxed.hex',
    'DATA'),
-  ('PyQt5\\uic\\widget-plugins\\qtcharts.py',
+  ('PyQt5\\Qt5\\translations\\qtbase_uk.qm',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtcharts.py',
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_uk.qm',
    'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-C7s.csv',
+  ('pyqtgraph\\colors\\maps\\CET-L7.csv',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C7s.csv',
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L7.csv',
    'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-D10.csv',
+  ('pyqtgraph\\colors\\maps\\CET-C1.csv',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D10.csv',
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C1.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\magma.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\magma.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-D1A.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D1A.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\PAL-relaxed_bright.hex',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\PAL-relaxed_bright.hex',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-D6.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D6.csv',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_bg.qm',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('pyqtgraph\\icons\\auto.png',
+   'D:\\IT\\CPU load\\venv\\lib\\site-packages\\pyqtgraph\\icons\\auto.png',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-C3s.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C3s.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-L11.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L11.csv',
    'DATA'),
   ('pyqtgraph\\colors\\maps\\viridis.csv',
    'D:\\IT\\CPU '
    'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\viridis.csv',
    'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-C4s.csv',
+  ('PyQt5\\Qt5\\translations\\qtbase_sk.qm',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C4s.csv',
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-L12.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L12.csv',
    'DATA'),
   ('pyqtgraph\\colors\\maps\\CET-CBC1.csv',
    'D:\\IT\\CPU '
    'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-CBC1.csv',
    'DATA'),
-  ('pyqtgraph\\icons\\invisibleEye.svg',
+  ('pyqtgraph\\colors\\maps\\CET-CBTD1.csv',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\icons\\invisibleEye.svg',
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-CBTD1.csv',
    'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-D7.csv',
+  ('PyQt5\\uic\\widget-plugins\\qaxcontainer.py',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D7.csv',
+   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qaxcontainer.py',
    'DATA'),
-  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qtwebkit.cpython-39.pyc',
+  ('PyQt5\\Qt5\\translations\\qtbase_lv.qm',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qtwebkit.cpython-39.pyc',
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_lv.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_cs.qm',
+  ('PyQt5\\Qt5\\translations\\qtbase_gd.qm',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_cs.qm',
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_gd.qm',
    'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-L17.csv',
+  ('PyQt5\\Qt5\\translations\\qtbase_es.qm',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L17.csv',
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_fi.qm',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-CBL2.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-CBL2.csv',
    'DATA'),
   ('pyqtgraph\\colors\\maps\\CC0 legal code - applies to virids, magma, '
    'plasma, inferno and cividis.txt',
    'D:\\IT\\CPU load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CC0 '
    'legal code - applies to virids, magma, plasma, inferno and cividis.txt',
    'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-C6.csv',
+  ('PyQt5\\uic\\widget-plugins\\qtprintsupport.py',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C6.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CC-BY license - applies to CET color map data.txt',
-   'D:\\IT\\CPU load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CC-BY '
-   'license - applies to CET color map data.txt',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_lv.qm',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_lv.qm',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-CBTC2.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-CBTC2.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-L15.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L15.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-D6.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D6.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-L4.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L4.csv',
-   'DATA'),
-  ('pyqtgraph\\icons\\lock.png',
-   'D:\\IT\\CPU load\\venv\\lib\\site-packages\\pyqtgraph\\icons\\lock.png',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-D4.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D4.csv',
-   'DATA'),
-  ('pyqtgraph\\icons\\default.png',
-   'D:\\IT\\CPU load\\venv\\lib\\site-packages\\pyqtgraph\\icons\\default.png',
-   'DATA'),
-  ('PyQt5\\uic\\widget-plugins\\qaxcontainer.py',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qaxcontainer.py',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_uk.qm',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_uk.qm',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-I2.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-I2.csv',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_ja.qm',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ja.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_hu.qm',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_hu.qm',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-D9.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D9.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-C3s.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C3s.csv',
-   'DATA'),
-  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qtprintsupport.cpython-39.pyc',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qtprintsupport.cpython-39.pyc',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-L3.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L3.csv',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_it.qm',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_it.qm',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-R2.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-R2.csv',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_fr.qm',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fr.qm',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\PAL-relaxed_bright.hex',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\PAL-relaxed_bright.hex',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\inferno.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\inferno.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-I1.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-I1.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-D8.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D8.csv',
+   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtprintsupport.py',
    'DATA'),
   ('pyqtgraph\\colors\\maps\\CET-L16.csv',
    'D:\\IT\\CPU '
    'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L16.csv',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_fi.qm',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fi.qm',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\magma.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\magma.csv',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_es.qm',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_es.qm',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-D1.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D1.csv',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_da.qm',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_da.qm',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-L19.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L19.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-L5.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L5.csv',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_ko.qm',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ko.qm',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-CBTL2.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-CBTL2.csv',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_de.qm',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_de.qm',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-I3.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-I3.csv',
-   'DATA'),
-  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qaxcontainer.cpython-39.pyc',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qaxcontainer.cpython-39.pyc',
-   'DATA'),
-  ('PyQt5\\uic\\widget-plugins\\qscintilla.py',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qscintilla.py',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-C7.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C7.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-L1.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L1.csv',
-   'DATA'),
-  ('PyQt5\\uic\\widget-plugins\\qtprintsupport.py',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtprintsupport.py',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-D13.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D13.csv',
-   'DATA'),
   ('PyQt5\\uic\\widget-plugins\\qtwebkit.py',
    'D:\\IT\\CPU '
    'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtwebkit.py',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_gd.qm',
+  ('pyqtgraph\\colors\\maps\\CET-C3.csv',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_gd.qm',
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C3.csv',
    'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-L10.csv',
+  ('pyqtgraph\\colors\\maps\\CET-L6.csv',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L10.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\cividis.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\cividis.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\PAL-relaxed.hex',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\PAL-relaxed.hex',
-   'DATA'),
-  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qtquickwidgets.cpython-39.pyc',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qtquickwidgets.cpython-39.pyc',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-C2.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C2.csv',
-   'DATA'),
-  ('pyqtgraph\\icons\\icons.svg',
-   'D:\\IT\\CPU load\\venv\\lib\\site-packages\\pyqtgraph\\icons\\icons.svg',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-L13.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L13.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-D3.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D3.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-CBL2.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-CBL2.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-L8.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L8.csv',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_en.qm',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_en.qm',
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L6.csv',
    'DATA'),
   ('pyqtgraph\\colors\\maps\\CET-CBD1.csv',
    'D:\\IT\\CPU '
    'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-CBD1.csv',
    'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-C6s.csv',
+  ('pyqtgraph\\colors\\maps\\CET-CBTL2.csv',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C6s.csv',
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-CBTL2.csv',
    'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-R1.csv',
+  ('pyqtgraph\\colors\\maps\\CET-CBTC2.csv',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-R1.csv',
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-CBTC2.csv',
    'DATA'),
-  ('PyQt5\\uic\\widget-plugins\\qtquickwidgets.py',
+  ('pyqtgraph\\colors\\maps\\CET-D13.csv',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtquickwidgets.py',
-   'DATA'),
-  ('pyqtgraph\\icons\\ctrl.png',
-   'D:\\IT\\CPU load\\venv\\lib\\site-packages\\pyqtgraph\\icons\\ctrl.png',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-CBTL1.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-CBTL1.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-CBL1.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-CBL1.csv',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_tr.qm',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_tr.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_ar.qm',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ar.qm',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-C1.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C1.csv',
-   'DATA'),
-  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qtcharts.cpython-39.pyc',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qtcharts.cpython-39.pyc',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\plasma.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\plasma.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-CBTD1.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-CBTD1.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-R3.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-R3.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-L7.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L7.csv',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_sk.qm',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_sk.qm',
-   'DATA'),
-  ('PyQt5\\uic\\widget-plugins\\qtwebenginewidgets.py',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtwebenginewidgets.py',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-C1s.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C1s.csv',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_ru.qm',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ru.qm',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-L9.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L9.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-D11.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D11.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-C4.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C4.csv',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_bg.qm',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_bg.qm',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-R4.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-R4.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-D2.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D2.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-CBTC1.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-CBTC1.csv',
-   'DATA'),
-  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qtwebenginewidgets.cpython-39.pyc',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qtwebenginewidgets.cpython-39.pyc',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-L11.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L11.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-CBC2.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-CBC2.csv',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-L18.csv',
-   'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L18.csv',
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D13.csv',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qtbase_pl.qm',
    'D:\\IT\\CPU '
    'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_pl.qm',
    'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-L12.csv',
+  ('pyqtgraph\\colors\\maps\\CET-I2.csv',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L12.csv',
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-I2.csv',
    'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-C5.csv',
+  ('pyqtgraph\\colors\\maps\\cividis.csv',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C5.csv',
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\cividis.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-D4.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D4.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-R3.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-R3.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\inferno.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\inferno.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-CBTL1.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-CBTL1.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-L13.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L13.csv',
    'DATA'),
   ('PyQt5\\uic\\widget-plugins\\__pycache__\\qscintilla.cpython-39.pyc',
    'D:\\IT\\CPU '
    'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qscintilla.cpython-39.pyc',
    'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_tr.qm',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CC-BY license - applies to CET color map data.txt',
+   'D:\\IT\\CPU load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CC-BY '
+   'license - applies to CET color map data.txt',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-CBL1.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-CBL1.csv',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_it.qm',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-C4s.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C4s.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-D10.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D10.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-C7s.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C7s.csv',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ru.qm',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('pyqtgraph\\icons\\ctrl.png',
+   'D:\\IT\\CPU load\\venv\\lib\\site-packages\\pyqtgraph\\icons\\ctrl.png',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-CBTC1.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-CBTC1.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-D8.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D8.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-C4.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C4.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-R2.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-R2.csv',
+   'DATA'),
+  ('pyqtgraph\\icons\\icons.svg',
+   'D:\\IT\\CPU load\\venv\\lib\\site-packages\\pyqtgraph\\icons\\icons.svg',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-L17.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L17.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-D3.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D3.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-L19.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L19.csv',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtwebenginewidgets.py',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtwebenginewidgets.py',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qaxcontainer.cpython-39.pyc',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qaxcontainer.cpython-39.pyc',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtquickwidgets.py',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtquickwidgets.py',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-L4.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L4.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\plasma.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\plasma.csv',
+   'DATA'),
+  ('pyqtgraph\\icons\\invisibleEye.svg',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\icons\\invisibleEye.svg',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qscintilla.py',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qscintilla.py',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-D2.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D2.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-C2s.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C2s.csv',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_da.qm',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-D12.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D12.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-C5.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C5.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-D7.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D7.csv',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_cs.qm',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qtprintsupport.cpython-39.pyc',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qtprintsupport.cpython-39.pyc',
+   'DATA'),
   ('PyQt5\\Qt5\\translations\\qtbase_ca.qm',
    'D:\\IT\\CPU '
    'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ca.qm',
    'DATA'),
-  ('pyqtgraph\\icons\\auto.png',
-   'D:\\IT\\CPU load\\venv\\lib\\site-packages\\pyqtgraph\\icons\\auto.png',
-   'DATA'),
-  ('pyqtgraph\\colors\\maps\\CET-C3.csv',
+  ('PyQt5\\Qt5\\translations\\qtbase_en.qm',
    'D:\\IT\\CPU '
-   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C3.csv',
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ar.qm',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-C1s.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C1s.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-L3.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L3.csv',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_hu.qm',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-C6.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C6.csv',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qtquickwidgets.cpython-39.pyc',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qtquickwidgets.cpython-39.pyc',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-D9.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D9.csv',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qtwebkit.cpython-39.pyc',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qtwebkit.cpython-39.pyc',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qtwebenginewidgets.cpython-39.pyc',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qtwebenginewidgets.cpython-39.pyc',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_de.qm',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-C7.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C7.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-C5s.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C5s.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-D11.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D11.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-D1.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-D1.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-C6s.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-C6s.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-L8.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L8.csv',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ko.qm',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('pyqtgraph\\icons\\lock.png',
+   'D:\\IT\\CPU load\\venv\\lib\\site-packages\\pyqtgraph\\icons\\lock.png',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-R4.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-R4.csv',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-L18.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L18.csv',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ja.qm',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtcharts.py',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtcharts.py',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-L14.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-L14.csv',
+   'DATA'),
+  ('pyqtgraph\\icons\\default.png',
+   'D:\\IT\\CPU load\\venv\\lib\\site-packages\\pyqtgraph\\icons\\default.png',
+   'DATA'),
+  ('pyqtgraph\\colors\\maps\\CET-CBC2.csv',
+   'D:\\IT\\CPU '
+   'load\\venv\\lib\\site-packages\\pyqtgraph\\colors\\maps\\CET-CBC2.csv',
    'DATA')],
  [])
